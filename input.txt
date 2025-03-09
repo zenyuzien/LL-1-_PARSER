@@ -9,3 +9,8 @@ B>*FB|e
 F>(E)|i
 
 failing to follow the rules above leads to undefined behavior. 
+modify the 2nd line for terminals. Don't change lines structure.
+2ND LINE - TERMINALS
+4TH LINE - NON-TERMINALS
+5TH LINE ONWARDS - PRODUCTION RULES
+the other lines will be ignored by the parser
