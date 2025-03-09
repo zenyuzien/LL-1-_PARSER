@@ -1,0 +1,11 @@
+terminals: (rule: the first character represents 'epsilon', the second char represents 'int' if exists otherwise keep anything, the last character represents 'end of string' )
+e i ( ) * + $
+non terminals: (rule: the first character represents start symbol )
+E T A B F
+E>TA
+A>+TA|e
+T>FB
+B>*FB|e
+F>(E)|i
+
+failing to follow the rules above leads to undefined behavior. 
